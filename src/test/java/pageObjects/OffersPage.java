@@ -22,7 +22,7 @@ public class OffersPage {
 	
 	public void getSearchText()
 	{
-		driver.findElement(search).getText();
+		driver.findElement(search).getText()
 	}
 	
 	public String getProductName()
