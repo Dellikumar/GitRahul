@@ -45,6 +45,9 @@ public class LandingPage {
 	public void addToCart()
 	{
 		driver.findElement(addToCart).click();
+		System.out.println("test git");
+		System.out.println("test git12");
+		System.out.println("test git123");
 	}
 	
 	public String getProductName()
